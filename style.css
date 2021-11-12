@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 30px;
+  background-color: rgb(87, 156, 133);
+  height: 50px;
+}
+.input {
+  width: 1350px;
+}
+
+.title {
+  padding: 50px;
+  text-align: left;
+}
+
+.tutorial {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+figure.image {
+  display: grid;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 280px;
+}
+
+.notification {
+  margin-top: 20px !important;
+}
+
+.results {
+  max-height: 1000px;
+}
+
+.title .icon {
+  margin-left: 10px;
+}
+
+.hero {
+  margin-bottom: 10px;
+}
+
+.forms {
+  display: grid;
+  justify-content: space-around;
+}
+
+label {
+  font-size: 20px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.dropdown-item img {
+  height: 70px;
+  margin-right: 10px;
+}
+
+.input {
+  height: 40px;
+  font-size: large;
+}
+
+.media {
+  height: 40px;
+  width: 20px;
+}
+
+.image img {
+  height: 254px;
+  width: 100%;
+  margin-top: 16px;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: flex;
+}
+
+.media-content {
+  flex-basis: auto;
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.content h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  margin-left: 0px;
+  padding: 5px;
+  padding-left: 18px;
+}
+
+article .notofocation is-primary {
+  background-color: aqua;
+  height: 20px;
+}
+
+.dropdown.is-active .dropdown-menu,
+.dropdown.is-hoverable:hover .dropdown-menu {
+  display: contents;
+}
+
+.notification {
+  background-color: rgb(87, 156, 133);
+  height: 50px;
+}
+
+.title {
+  padding: 50px;
+  text-align: left;
+  background-color: rgb(87, 156, 133);
+  width: 100%;
+  margin-top: 30px;
+}
+
+.title:not(.is-spaced) + .subtitle {
+  margin-top: 8.75rem;
+  margin-left: -64.5em;
+  margin-bottom: 4rem;
+  font-weight: bold;
+}
