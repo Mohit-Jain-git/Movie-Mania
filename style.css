@@ -128,7 +128,7 @@ article .notofocation is-primary {
 }
 
 .title {
-  padding: 3em;
+  padding: 1em;
   text-align: left;
   background-color: rgb(87, 156, 133);
   width: 100%;
@@ -137,7 +137,7 @@ article .notofocation is-primary {
 
 .title:not(.is-spaced) + .subtitle {
   margin-top: 8.75rem;
-  margin-left: -81.5rem;
+  margin-left: -79.5rem;
   margin-bottom: 4rem;
   font-weight: bold;
   width: 100%;
@@ -150,5 +150,3 @@ article .notofocation is-primary {
   line-height: 1.25;
   width: 100%;
 }
-
-@media (max-width);
