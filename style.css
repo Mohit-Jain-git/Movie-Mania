@@ -261,3 +261,15 @@ article .is-warning {
     margin-left: -15.5rem;
   }
 }
+
+@media (max-width: 380px) {
+  .hero.is-primary .title {
+    font-size: 111px;
+  }
+  .hero.is-primary.is-bold {
+    height: 18rem;
+  }
+  label {
+    font-size: 70px;
+  }
+} ;
