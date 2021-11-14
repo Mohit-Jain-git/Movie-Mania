@@ -42,7 +42,7 @@ const onInput = async (event) => {
     option.classList.add("dropdown-item");
     option.innerHTML = `
     <img src="${imgSrc}">
-    ${movie.Title}
+    ${movie.Title} (${movie.Year})
     `;
     option.addEventListener("click", (event) => {
       dropdown.classList.remove("is-active");

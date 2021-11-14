@@ -5,11 +5,12 @@
 
 h1 {
   font-size: 30px;
-  background-color: rgb(87, 156, 133);
   height: 50px;
 }
 .input {
-  width: 1350px;
+  height: 40px;
+  font-size: large;
+  width: 98%;
 }
 
 .title {
@@ -105,16 +106,20 @@ section {
 }
 
 .content h1 {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-  margin-left: 0px;
-  padding: 5px;
-  padding-left: 18px;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0rem;
+  padding: 3rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-left: 2rem;
+  background-color: #00d1b2;
+  padding-top: 1rem;
+  margin-right: 1rem;
 }
-
-article .notofocation is-primary {
-  background-color: aqua;
-  height: 20px;
+article .is-warning {
+  /* height: 20px; */
+  background-color: black;
 }
 
 .dropdown.is-active .dropdown-menu,
@@ -123,21 +128,25 @@ article .notofocation is-primary {
 }
 
 .notification {
-  background-color: rgb(87, 156, 133);
   height: 50px;
 }
 
 .title {
-  padding: 2em;
+  padding: 0rem;
+  padding-top: 0rem;
+  padding-left: 0rem;
   text-align: left;
-  background-color: rgb(87, 156, 133);
   width: 100%;
-  margin-top: 1em;
+  margin-top: 3rem;
+  background-color: #00d1b2;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  margin-left: -1rem;
 }
 
 .title:not(.is-spaced) + .subtitle {
   margin-top: 8.75rem;
-  margin-left: -79.5rem;
+  margin-left: -81.5rem;
   margin-bottom: 4rem;
   font-weight: bold;
   width: 100%;
@@ -149,4 +158,106 @@ article .notofocation is-primary {
   font-weight: 400;
   line-height: 1.25;
   width: 100%;
+}
+
+.hero.is-primary.is-bold {
+  height: 10rem;
+}
+
+.column.is-half,
+.column.is-half-tablet {
+  flex: none;
+  width: 51%;
+  height: 7rem;
+}
+
+.notification .title,
+.notification .subtitle,
+.notification .content {
+  text-align: center;
+  margin-top: 0em;
+}
+.stitle {
+  font-size: x-large;
+  margin-top: -1rem;
+}
+
+.hero-body {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 1rem 1.5rem;
+  background-color: #00d1b2;
+}
+
+.notification .title,
+.notification .subtitle,
+.notification .content {
+  text-align: center;
+  margin-top: 0em;
+  margin-left: 0rem;
+}
+.title:not(.is-spaced) + .gla {
+  margin-top: 8.75rem;
+  margin-left: -38.5rem;
+  margin-bottom: 4rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  position: relative;
+  width: 27rem;
+}
+
+@media (max-width: 1416px) {
+  .title:not(.is-spaced) + .subtitle {
+    margin-top: 8.75rem;
+    margin-left: -81.5rem;
+    margin-bottom: 4rem;
+    font-weight: bold;
+    width: 100%;
+  }
+}
+
+@media (max-width: 651px) {
+  .content h1 {
+    padding-bottom: 6rem;
+  }
+}
+
+@media (max-width: 432px) {
+  .content h1 {
+    padding-bottom: 9rem;
+  }
+}
+
+@media (max-width: 1419px) {
+  .title:not(.is-spaced) + .subtitle {
+    margin-left: -66.5rem;
+  }
+}
+
+@media (max-width: 1224px) {
+  .title:not(.is-spaced) + .subtitle {
+    margin-left: -54.5rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .title:not(.is-spaced) + .subtitle {
+    margin-left: -29.5rem;
+  }
+}
+
+@media (max-width: 521px) {
+  .title:not(.is-spaced) + .subtitle {
+    margin-left: -19.5rem;
+  }
+}
+
+@media (max-width: 348px) {
+  .title:not(.is-spaced) + .subtitle {
+    margin-left: -15.5rem;
+  }
 }
